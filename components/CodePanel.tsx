@@ -491,7 +491,6 @@ export function CodePanel({
   statusLog,
   onImprove,
   onFixError,
-  onFilePatch: _onFilePatch,
   appTitle,
   isImproving,
   isProUser,

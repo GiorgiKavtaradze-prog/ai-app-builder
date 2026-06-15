@@ -22,7 +22,8 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Forge - AI App Builder",
-  description: "",
+  description:
+    "Describe your app idea and let Forge generate code, choose packages, and preview the result in your browser.",
   icons: {
     icon: "/logo-short.jpeg",
   },

@@ -4,7 +4,6 @@ import { GoogleGenAI } from "@google/genai";
 import { db } from "@/lib/prisma";
 import { CREDIT_COST_PER_GENERATION } from "@/lib/constants";
 import type { Message, FileData } from "@/types/workspace";
-import { aj } from "@/lib/arcjet";
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
 
